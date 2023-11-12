@@ -64,13 +64,20 @@ If you have a file named urls.txt containing the following
 URLs:example.com
 test.com 
 
+The output will return the path with 200 status code
+```bash
 https://example.com/api/postman-collection
 https://test.com/redoc
-
+```
 
 ## Notes
 
     Make sure to replace placeholder values in the script with your actual file paths and URLs.
     Use caution when checking URLs, especially on external servers, to avoid unintended consequences.
     The script uses the requests library to make HTTP requests, so ensure your environment allows internet access.
+
+### Contact
+Please if you have any questions or comments feel free to contact me, 
+[Twitter](https://twitter.com/perhapsmalek)
+[LinkedIn](https://www.linkedin.com/in/malek-althubiany-b82b65197/)
 
